@@ -1,0 +1,22 @@
+{
+  "name": "ar-ecommerce",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "tailwindcss": "^3.4.16",
+    "typescript": "~5.6.2",
+    "vite": "^6.0.1"
+  },
+  "dependencies": {
+    "@google/model-viewer": "^4.0.0",
+    "rm": "^0.1.8",
+    "three": "^0.169.0"
+  }
+}

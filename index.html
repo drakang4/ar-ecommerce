@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Detail</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-100">
+    <div class="container mx-auto">
+      <div class="bg-white p-6">
+        <img
+          class="w-full aspect-auto object-cover object-center mb-2"
+          src="/Chair.webp"
+          alt="Product Image"
+        />
+        <model-viewer
+          src="/Chair.glb"
+          shadow-intensity="1"
+          ar
+          alt="A 3D model carousel"
+          reveal="manual"
+          class="mb-6"
+        >
+          <!-- <button slot="ar-button" id="ar-button">View in your space</button> -->
+        </model-viewer>
+        <h2 class="text-2xl font-medium text-gray-900 mb-2">
+          Lounge Chair & Ottoman
+        </h2>
+        <p class="leading-relaxed text-base mb-4">
+          라운지 의자 및 오토만으로 최고의 편안함과 스타일을 경험해 보세요. 모든
+          생활 공간에 딱 맞는 이 세트는 현대적인 디자인과 고급스러운 소재를
+          결합하여 정말 뛰어난 가구를 만들어냅니다.
+        </p>
+        <p class="leading-relaxed text-base mb-4">
+          모든 주문에 대해 무료 배송을 즐겨보세요. 당사의 제품은 완벽한 상태로
+          도착할 수 있도록 주의 깊게 포장됩니다. 배송 시간은 귀하의 위치에 따라
+          다를 수 있습니다.
+        </p>
+        <div class="flex items-center justify-between mb-4">
+          <span class="title-font font-medium text-2xl text-gray-900"
+            >₩3,000,000</span
+          >
+          <button class="bg-blue-500 text-white px-6 py-2 rounded-lg">
+            구매하기
+          </button>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
