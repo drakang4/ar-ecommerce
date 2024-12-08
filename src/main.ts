@@ -1,6 +1,6 @@
 import "./style.css";
 import "@google/model-viewer";
-import model from "./assets/Chair.glb";
+import model from "./assets/Chair.glb?url";
 
 document.querySelector("#ar-viewer")!.innerHTML = `
   <model-viewer
